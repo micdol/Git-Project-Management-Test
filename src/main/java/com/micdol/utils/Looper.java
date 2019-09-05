@@ -15,7 +15,7 @@ public class Looper {
 
         Arrays.stream(new int[]{1, 2, 4, 5, 6, 7})
                 .map(e -> e * e)
-                .mapToObj(e -> e + " ")
-                .forEach(System.out::print);
+                .mapToObj(e -> e + " says hi")
+                .forEach(System.out::println);
     }
 }
