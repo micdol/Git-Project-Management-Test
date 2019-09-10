@@ -12,7 +12,6 @@ public class Looper {
             System.out.println(message);
         }
 
-
         Arrays.stream(new int[]{1, 2, 4, 5, 6, 7})
                 .map(e -> e * e)
                 .mapToObj(e -> e + " says hi")
